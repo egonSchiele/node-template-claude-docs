@@ -12,3 +12,28 @@ Please create reusable subcomponents where it would help to reduce code duplicat
 If you create a component that will be used across many pages, put it in the `src/frontend/components/` directory.
 
 Each React component should only do one thing.
+
+## Error states
+
+Every React component for a top-level page should have an `error` useState property that can be used to display errors to the user:
+
+```typescript
+const [error, setError] = useState<string | null>(null);
+```
+
+Errors should always be shown using the `<Banner>` component from `egon-ui`:
+
+```typescript
+{error && <Banner style="error">{error}</Banner>}
+```
+
+When making API calls, make sure to catch errors and set the error state appropriately. For example:
+
+```typescript
+  const result = await apiClient.someEndpoint();
+  if (result.success) {
+    // handle success
+  } else {
+    setError(result.error.message);
+  }
+```
