@@ -6,14 +6,16 @@ https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/hea
 
 Here are docs for specific topics. If you are tasked with working on a topic, fetch and read its related documentation:
 
-- adding a new page: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/adding-a-new-page.md
-- creating an API route, input validation on API routes: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/api-routes.md
-- creating a CRUD UI and backend: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/creating-a-crud-ui.md
-- database changes such as migrations: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/database-changes.md
-- styling, frontend components, react components: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/styling.md
-- middleware: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/middleware.md
-- writing scripts: https://github.com/egonSchiele/node-template-claude-docs/blob/main/docs/writing-scripts.md
+- adding a new page: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/adding-a-new-page.md
+- creating an API route, input validation on API routes: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/api-routes.md
+- creating a CRUD UI and backend: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/creating-a-crud-ui.md
+- database changes such as migrations: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/database-changes.md
+- styling, frontend components, react components: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/styling.md
+- middleware: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/middleware.md
+- writing scripts: https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/writing-scripts.md
 
+https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/adding-a-new-page.md
+https://raw.githubusercontent.com/egonSchiele/node-template-claude-docs/refs/heads/main/docs/adding-a-new-page.md
 
 ## notable files and folders
 - `src/frontend/`: Contains all the frontend code, including React components, pages, and styles.

@@ -1,3 +1,5 @@
+# Code Guidelines
+
 ## Relative vs. Absolute Imports
 
 Always prefer absolute imports.  There are path aliases defined in `src/frontend/tsconfig.json` and `src/backend/tsconfig.json`. For example, if you wanted to write an absolute import for the file at 
