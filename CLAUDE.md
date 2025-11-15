@@ -1,0 +1,32 @@
+This is a web app written in React, TypeScript, and Node. Kysely is used as the ORM, and Vite is used to build assets. All the frontend code lives in `src/frontend`, while the backend lives in `src/backend`.
+
+
+
+## notable files and folders
+- `src/frontend/`: Contains all the frontend code, including React components, pages, and styles.
+- `src/backend/`: Contains all the backend code, including API routes, database access, and middleware.
+- `src/backend/routes/api/`: Contains all the API routes for the backend.
+- `src/common/`: Contains code that is shared between the frontend and backend, such as types and utility functions.
+
+## Testing changes
+You can test your changes by running the following command:
+
+```bash
+pnpm run build
+```
+
+## CHANGELOG.md
+Whenever you add a new feature, please add it to the top of CHANGELOG.md along with the timestamp. For example:
+
+```
+## Nov 9 2025
+Started changelog
+```
+
+Please keep updates concise. It is okay to sacrifice grammar for conciseness.
+
+## Writing tests
+For backend code that doesn't touch the database, please write tests using vitest. Test files should be placed alongside the source files. See src/common/util.test.ts for an example.
+
+## Troubleshooting
+If you get errors related to apiClient.ts, you may need to recompile it. Run `pnpm run compile-client` to do so.
