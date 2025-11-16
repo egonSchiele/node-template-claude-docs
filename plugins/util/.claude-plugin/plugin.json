@@ -1,11 +1,9 @@
 {
   "name": "util",
-  "source": "./plugins/util",
   "description": "A bunch of utility commands",
   "version": "0.0.1",
   "author": {
     "name": "Aditya Bhargava"
   },
-  "category": "workflow",
   "keywords": ["util", "workflow"]
 }
